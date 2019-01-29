@@ -1,0 +1,122 @@
+Pseudocode:
+////////////////////////////////////////
+Perhitungan Penjumlahan Vektor Ai x Bi
+
+
+// Perhitungan DOT PRODUCT Ai x Bi
+DEKLARASI:
+bobot_query: float
+bobot_dokumen: folat
+dot_product: float
+
+ALGORITMA:
+Read bobot_query
+Read bobot_dokumen
+dot_product <- bobot_query * bobot_dokumen
+end
+
+// Perhitungan SUM DOT PRODUCT Ai x Bi
+DEKLARASI:
+dot_product: float
+jumlah: 0
+
+ALGORITMA:
+for i=1 to n do
+jumlah:= dot_product + dot_product
+end for
+end
+///////////////////////////////////////
+
+///////////////////////////////////////
+Perhitungan Penjumlahan Vektor (Ai x Bi)^2
+
+// Perhitungan CROSS PRODUCT Ai^2	
+DEKLARASI:
+bobot_dokumen: folat
+cross_product: float
+
+ALGORITMA:
+Read bobot_dokumen
+cross_product <- bobot_dokumen * bobot_dokumen
+end
+
+// Perhitungan SUM CROSS PRODUCT Ai^2
+DEKLARASI:
+dot_product: float
+jumlah: 0
+
+ALGORITMA:
+for i=1 to n do
+jumlah:= dot_product + dot_product
+end for
+end
+
+// Perhitungan QUERY DOT PRODUCT Bi^2
+DEKLARASI:
+query_dot_product: float
+bobot_query: float
+
+ALGORITMA:
+Read query_dot_product
+query_dot_product <- bobot_query * bobot_query
+end
+
+
+// Perhitungan SUM QUERY CROSS PRODUCT Bi^2
+DEKLARASI:
+query_dot_product: float
+jumlah: 0
+
+ALGORITMA:
+for i=1 to n do
+jumlah:= query_dot_product + query_dot_product
+end for
+end
+///////////////////////////////////////
+
+///////////////////////////////////////
+Penjumlahan dan Perhitungan Akar dari Panjang Vektor
+// Perhitungan PERKALIAN DAN SQRT (Ai * Bi)^2
+DEKLARASI:
+dot_product: float
+query_dot_product: float
+hasil_kali: float
+hasil_akar: float
+
+ALGORITMA:
+Read dot_product
+Read query_dot_product
+hasil_kali <- dot_product * query_dot_product
+hasil_akar <- sqrt(hasil_akar)
+end
+///////////////////////////////////////
+
+///////////////////////////////////////
+
+// Perhitungan COSINE SIMILARITY
+DEKLARASI:
+hasil_akar: float
+cross_product: float
+cosine_similarity: float
+
+ALGORITMA:
+Read hasil_akar
+Read cross_product
+cosine_similarity <- cross_product / hasil_akar
+end
+///////////////////////////////////////
+
+// Hasil Klasifikasi
+DEKLARASI:
+query: string
+nama_disposisi: string
+cosine_similarity: float
+doc_id: integer
+
+
+ALGORITMA:
+Read cosine_similarity {Membaca Hasil Nilai Terbesar dari Cosine Similarity }
+Read query
+Read nama_disposisi
+Print ('query' termasuk kedalam disposisi: 'nama_disposisi')
+Print (nilai kemiripan = 'cosine_similarity')

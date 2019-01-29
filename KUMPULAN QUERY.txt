@@ -1,0 +1,18 @@
+TRUNCATE q;
+TRUNCATE q_case_folding;
+TRUNCATE q_filtering;
+TRUNCATE q_stemming;
+TRUNCATE q_tokenisasi;
+TRUNCATE dot_product;
+TRUNCATE hasil_c_product;
+TRUNCATE hasil_cosine;
+TRUNCATE jumlah_dot_product;
+TRUNCATE jumlah_q_dot_product;
+TRUNCATE q_dot_product;
+TRUNCATE q_index;
+TRUNCATE sqrt_dot_product;
+TRUNCATE cross_product;
+
+
+innodb_flush_log_at_trx_commit = 1
+realpath_cache_size = 16k
